@@ -13,7 +13,7 @@ export default function Home() {
       <Nav />
 
       <main>
-        <section className=" md:flex md:justify-center  md:items-center  relative space-y-4  md:px-16 lg:py-10  py-20 p-4 bg-b2creative text-white">
+        <section className=" md:flex md:justify-center  md:items-center  relative space-y-4  md:px-16 lg:py-0  py-20 p-4 bg-b2creative text-white">
           <div className=" space-y-4  flex flex-col items-center md:items-start lg:w-[500px]">
             <h1 className=" text-center md:text-start md:text-4xl text-2xl lg:text-5xl font-semibold">
               Higher Rankings. Relevant Visitors. More Customers
@@ -24,7 +24,7 @@ export default function Home() {
               your online presence and drive results. Let's unlock your
               business's full potential..
             </p>
-            <button className=" bg-green-500 p-3 md:text-base text-sm rounded-lg">
+            <button className=" hover:border-white hover:bg-transparent transition-all ease-linear duration-200 border border-green-500 bg-green-500 p-3  text-sm rounded-lg">
               See Case Studies
             </button>
           </div>
