@@ -5,6 +5,7 @@ import marketingimg from "../../assests/marketing.png";
 import wave from "../../assests/wave.svg";
 import Hero from "../../components/Hero";
 import SEOServices from "../../components/SEOServices";
+import WelcomeSection from "../../components/WelcomeSection";
 export default function Home() {
   return (
     <>
@@ -17,6 +18,7 @@ export default function Home() {
       <main>
         <Hero />
         <SEOServices />
+        <WelcomeSection />
         
       </main>
     </>
