@@ -9,13 +9,7 @@ import { useIntersectionObserver } from "usehooks-ts";
 type Props = {};
 function BoostYourTrafic({}: Props) {
   const [Statsisvisible, setStatsisVisible] = useState<boolean>(false);
-  {
-    /** 
-    const ref = useRef<HTMLDivElement | null>(null);
-    const  entry = useIntersectionObserver(ref, {});
 
-   (entry?.isIntersecting) */
-  }
 
   useCountUp({
     ref: "counter",
@@ -26,10 +20,10 @@ function BoostYourTrafic({}: Props) {
   });
 
   return (
-    <div className=" relative  text-white bg-green-700 pt-10 px-6  ">
-      <div className="space-y-4  ">
+    <div className=" md:flex  lg:space-x-20 lg:justify-center overflow-hidden md:items-center  md:space-x-4 relative  text-white bg-green-600 pt-10 px-6 md:pl-10 md:pt-20 md:px-0 ">
+      <div className="space-y-4  lg:max-w-[600px] lg:pl-20  ">
         <h3 className=" uppercase font-light text-sm ">Boost your traffic</h3>
-        <h4 className=" text-xl font-semibold">
+        <h4 className=" text-x  md:text-3xl lg:text-4xl font-semibold">
           Increase your website traffic with our proven approach
         </h4>
 
@@ -75,7 +69,7 @@ function BoostYourTrafic({}: Props) {
       </div>
 
       <div className="mt-4">
-        <Image src={analyticsimg} alt="map image" width={950} height={600} />
+        <Image src={analyticsimg} alt="map image" width={950} height={600} className=" md:h-[500px] md:w-[600px] lg:w-full object-cover object-left" />
       </div>
 
       <Image
