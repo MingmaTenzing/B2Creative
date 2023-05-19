@@ -5,7 +5,7 @@ type Props = {}
 const Hero = (props: Props) => {
   return (
     <>
-    <section className=" md:flex md:justify-center  md:items-center  relative space-y-4  md:px-16 lg:py-0  py-20 p-4 bg-b2creative text-white">
+    <section className=" md:flex md:justify-center  md:items-center  relative space-y-4  md:px-16 lg:py-0  py-20 p-4 bg-b2creative text-white overflow-hidden">
           <div className=" space-y-4  flex flex-col items-center md:items-start lg:w-[500px]">
             <h1 className=" text-center md:text-start md:text-4xl text-2xl lg:text-5xl font-semibold">
               Higher Rankings. Relevant Visitors. More Customers

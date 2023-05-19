@@ -6,6 +6,7 @@ import wave from "../../assests/wave.svg";
 import Hero from "../../components/Hero";
 import SEOServices from "../../components/SEOServices";
 import WelcomeSection from "../../components/WelcomeSection";
+import BoostYourTrafic from "../../components/BoostYourTrafic";
 export default function Home() {
   return (
     <>
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <SEOServices />
         <WelcomeSection />
+        <BoostYourTrafic />
         
       </main>
     </>
