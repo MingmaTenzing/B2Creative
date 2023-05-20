@@ -7,6 +7,7 @@ import Hero from "../../components/Hero";
 import SEOServices from "../../components/SEOServices";
 import WelcomeSection from "../../components/WelcomeSection";
 import BoostYourTrafic from "../../components/BoostYourTrafic";
+import ExploreServices from "../../components/ExploreServices";
 export default function Home() {
   return (
     <>
@@ -21,6 +22,7 @@ export default function Home() {
         <SEOServices />
         <WelcomeSection />
         <BoostYourTrafic />
+        <ExploreServices />
         
       </main>
     </>

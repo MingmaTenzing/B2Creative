@@ -23,7 +23,7 @@ function BoostYourTrafic({}: Props) {
     <div className=" md:flex  lg:space-x-20 lg:justify-center overflow-hidden md:items-center  md:space-x-4 relative  text-white bg-green-600 pt-10 px-6 md:pl-10 md:pt-20 md:px-0 ">
       <div className="space-y-4  lg:max-w-[600px] lg:pl-20  ">
         <h3 className=" uppercase font-light text-sm ">Boost your traffic</h3>
-        <h4 className=" text-x  md:text-3xl lg:text-4xl font-semibold">
+        <h4 className=" text-2xl  md:text-3xl lg:text-4xl font-semibold">
           Increase your website traffic with our proven approach
         </h4>
 
