@@ -20,7 +20,7 @@ function WelcomeSection({}: Props) {
       />
       <div className=" space-y-3 lg:space-y-6">
         <h3 className="  font-light  uppercase text-gray-500">Welcome to B2Creative</h3>
-        <h2 className="  font-semibold text-xl md:text-3xl text-gray-600 ">We&apos;re providing the best SEO services for your website</h2>
+        <h2 className="  font-semibold text-2xl md:text-3xl lg:text-4xl text-gray-600 ">We&apos;re providing the best SEO services for your website</h2>
         <p className=" text-gray-600">
           An enim nullam tempor sapien gravida donec pretium ipsum porta justo
           integer at odio velna vitae auctor integera congue magna at purus
