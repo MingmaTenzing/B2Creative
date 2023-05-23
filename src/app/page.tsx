@@ -9,6 +9,9 @@ import WelcomeSection from "../../components/WelcomeSection";
 import BoostYourTrafic from "../../components/BoostYourTrafic";
 import ExploreServices from "../../components/ExploreServices";
 import GrowBusiness from "../../components/GrowBusiness";
+import RecordSuccess from "../../components/RecordSuccess";
+import Startups from "../../components/Startups";
+import DriveSales from "../../components/DriveSales";
 export default function Home() {
   return (
     <>
@@ -25,6 +28,10 @@ export default function Home() {
         <BoostYourTrafic />
         <ExploreServices />
         <GrowBusiness />
+        <RecordSuccess />
+        <Startups />
+        <DriveSales/>
+        
         
       </main>
     </>
