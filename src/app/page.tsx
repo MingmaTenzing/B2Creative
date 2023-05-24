@@ -12,6 +12,7 @@ import GrowBusiness from "../../components/GrowBusiness";
 import RecordSuccess from "../../components/RecordSuccess";
 import Startups from "../../components/Startups";
 import DriveSales from "../../components/DriveSales";
+import FAQs from "../../components/FAQs";
 export default function Home() {
   return (
     <>
@@ -31,6 +32,7 @@ export default function Home() {
         <RecordSuccess />
         <Startups />
         <DriveSales/>
+        <FAQs />
         
         
       </main>
