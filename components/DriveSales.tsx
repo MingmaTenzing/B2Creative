@@ -4,7 +4,7 @@ import analysis from "../assests/analysis.png"
 type Props = {};
 function DriveSales({}: Props) {
   return (
-    <div className=" mt-10">
+    <div className=" mt-20">
 
         <div  className="   w-full overflow-hidden  md:flex items-center md:justify-center ">
 
