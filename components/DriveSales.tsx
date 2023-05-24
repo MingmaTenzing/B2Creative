@@ -6,15 +6,15 @@ function DriveSales({}: Props) {
   return (
     <div className=" mt-10">
 
-        <div  className=" w-full overflow-x-hidden md:flex items-center md:justify-center ">
+        <div  className="   w-full overflow-hidden  md:flex items-center md:justify-center ">
 
 
 
-        <div className=" p-4 md:pl-10 space-y-3  md:w-[430px]">
+        <div className=" p-4  space-y-3  md:w-[700px] lg:pl-20 ">
 
 
       <h3 className=" text-sm font-light uppercase">DRIVE SALES & LEADS</h3>
-      <h2 className=" text-2xl md:text-3xl lg:text-4xl">
+      <h2 className=" text-2xl md:text-3xl lg:text-4xl font-semibold">
         Our SEO plans will help you to dominate the search engines
       </h2>
       <p className=" text-sm text-gray-500">
@@ -30,8 +30,8 @@ function DriveSales({}: Props) {
       <button className=" bg-green-500 p-4 text-sm rounded-lg text-white">Our Pricing Packages</button>
         </div>
 
-        <div className=" mt-6 md:mt-0">
-            <Image src={analysis} width={815} height={612} alt="service image" className="" /> 
+        <div className=" mt-6  md:p-0 md:mt-0">
+            <Image src={analysis} width={815} height={612} alt="service image" className=" lg:pl-20 p-4  md:p-0 md:w-[600px] lg:w-full md:h-[500px] object-cover object-left" /> 
 
 
         </div>
