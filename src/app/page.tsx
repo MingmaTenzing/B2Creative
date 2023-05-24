@@ -13,6 +13,7 @@ import RecordSuccess from "../../components/RecordSuccess";
 import Startups from "../../components/Startups";
 import DriveSales from "../../components/DriveSales";
 import FAQs from "../../components/FAQs";
+import Footer from "../../components/Footer";
 export default function Home() {
   return (
     <>
@@ -33,6 +34,7 @@ export default function Home() {
         <Startups />
         <DriveSales/>
         <FAQs />
+        <Footer />
         
         
       </main>
