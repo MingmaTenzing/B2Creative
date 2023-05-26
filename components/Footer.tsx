@@ -15,7 +15,7 @@ function Footer({}: Props) {
           className=" w-16"
         />
         <p className=" font-light text-gray-600 ">
-          Aliquam orci a nullam tempor sapien gravida donec enim ipsum porta
+          Aliquam orci a null tempor sapien gravida donec enim ipsum porta
           justo velna an auctor undo congue magna laoreet augue sapien
         </p>
       </div>
