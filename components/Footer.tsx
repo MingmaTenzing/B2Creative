@@ -5,8 +5,10 @@ import Link from "next/link";
 type Props = {};
 function Footer({}: Props) {
   return (
-    <div className=" mt-20 border-t  p-4 md:flex flex-col items-center   ">
-      <div className=" space-y-4 flex flex-col items-center">
+    <div className=" mt-20 border-t  p-4   ">
+      <div className="  lg:flex   justify-between py-10 lg:items-center">
+
+      <div className=" lg:max-w-[300px] space-y-4 flex flex-col items-center">
         <Image
           src={logo}
           width={200}
@@ -14,7 +16,7 @@ function Footer({}: Props) {
           alt="B2Creatvie Logo"
           className=" w-16"
         />
-        <p className=" font-light text-gray-600 ">
+        <p className=" text-center font-light text-gray-600 ">
           Aliquam orci a null tempor sapien gravida donec enim ipsum porta
           justo velna an auctor undo congue magna laoreet augue sapien
         </p>
@@ -59,6 +61,7 @@ function Footer({}: Props) {
             placeholder="Email Address"
           ></input>
         </div>
+      </div>
       </div>
 
       <div className=" mt-10">
