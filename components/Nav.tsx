@@ -18,12 +18,7 @@ function Nav({}: Props) {
         <Image src={logo} alt='B2Creative Logo' width={200} height={200} className='  rounded-full w-14' />
         <div className='flex items-center space-x-10  text-sm text-gray-600 font-semibold'>
             <Link href="">About</Link>
-            <Link href="">Pages</Link>
-            <Link href="">Services</Link>
-            <Link href="">Mega Menu</Link>
-            <Link href="">Case Studies</Link>
-            <Link href="">Blog</Link>
-            <Link href="" className=' border border-black  px-4 py-3 hover:bg-green-500 hover:border-green-500 transition-all ease-linear duration-200 hover:text-white  rounded-md'>Free SEO Audit</Link>
+            <Link href="" className=' border border-black  px-4 py-3 hover:bg-green-500 hover:border-green-500 transition-all ease-linear duration-200 hover:text-white  rounded-md'>Contact Us</Link>
         </div>
         </div>
     </div>

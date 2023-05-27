@@ -1,11 +1,12 @@
 import Image from "next/image"
 import marketingimg from "../assests/marketing.png"
 import wave from "../assests/wave.svg"
+import BGMAP from "../assests/bg-map.png"
 type Props = {}
 const Hero = (props: Props) => {
   return (
     <>
-    <section className=" md:flex md:justify-center  md:items-center  relative space-y-4  md:px-16 lg:py-0  py-20 p-4 bg-b2creative text-white overflow-hidden">
+    <section className=" relative md:flex md:justify-center  md:items-center   space-y-4  md:px-16 lg:py-0  py-20 p-4 bg-b2creative text-white overflow-hidden">
           <div className=" space-y-4  flex flex-col items-center md:items-start lg:w-[500px]">
             <h1 className=" text-center md:text-start md:text-4xl text-2xl lg:text-5xl font-semibold">
               Higher Rankings. Relevant Visitors. More Customers
@@ -17,7 +18,7 @@ const Hero = (props: Props) => {
               business's full potential..
             </p>
             <button className=" hover:border-white hover:bg-transparent transition-all ease-linear duration-200 border border-green-500 bg-green-500 p-3  text-sm rounded-lg">
-              See Case Studies
+             Contact Us
             </button>
           </div>
           <div>
@@ -33,6 +34,8 @@ const Hero = (props: Props) => {
         <div className=" -mt-3 lg:-mt-20">
           <Image src={wave} width={1920} height={1080} alt="wave" />
         </div>
+
+        <Image src={BGMAP}  width={1080} height={1080} alt="bg image" className=" absolute w-full h-full  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-cover brightness-200" />
         </>
   )
 }
