@@ -1,4 +1,6 @@
+import Head from "next/head"
 import ExploreServices from "../../../components/ExploreServices"
+import FAQs from "../../../components/FAQs"
 import Footer from "../../../components/Footer"
 import Nav from "../../../components/Nav"
 import RecordSuccess from "../../../components/RecordSuccess"
@@ -10,6 +12,10 @@ type Props = {}
 function About({}: Props) {
   return (
     <div>
+
+      <Head>
+        <title>About</title>
+      </Head>
         <Nav />
         <div className="  -mt-10">
 
@@ -18,6 +24,7 @@ function About({}: Props) {
         <SEOServices/>
         <Startups />
         <RecordSuccess />
+        <FAQs />
         <Footer/>
         
     </div>
