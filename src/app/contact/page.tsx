@@ -86,7 +86,7 @@ window.scrollTo(0, 0);
             onChange={(e) => setEmail(e.target.value)}
             placeholder=" Email Address"
           ></input>
-          <textarea value={message} name="message" required onChange={(e) => setMessage(e.target.value)} className=" p-4 rounded-lg border outline-none h-[200px] w-full"></textarea>
+          <textarea placeholder="Message" value={message} name="message" required onChange={(e) => setMessage(e.target.value)} className=" p-4 rounded-lg border outline-none h-[200px] w-full"></textarea>
           <div className=" flex  md:justify-end">
             <button value="Send" type="submit" className="   bg-green-500 p-3 text-white rounded-lg text-sm font-semibold ">
               Send Message 

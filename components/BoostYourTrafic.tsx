@@ -47,7 +47,7 @@ function BoostYourTrafic({}: Props) {
           <p className=" text-sm ">•</p>
 
           <p className=" text-sm">
-            Increase your website's visibility and reach through our proven
+            Increase your website&apos;s visibility and reach through our proven
             approach to SEO.
           </p>
         </div>

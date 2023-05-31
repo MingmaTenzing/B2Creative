@@ -23,9 +23,8 @@ function ExploreServices({}: Props) {
           SEO Management & Strategy Services
         </h2>
         <p className=" text-sm lg:max-w-[600px]">
-          Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis
-          libero tempus, blandit posuere and ligula varius magna a porta
-          elementum massa risus
+          Boost Your Visibility and Drive Results with Comprehensive SEO
+          Management & Strategy Services
         </p>
       </div>
 
@@ -53,7 +52,7 @@ function ExploreServices({}: Props) {
               Advanced Analytics Review. Our expert team will analyze your data,
               identify patterns, and provide comprehensive reports to optimize
               your business strategies. Uncover hidden opportunities and unlock
-              your company's true potential with our advanced analytics
+              your company&apos;s true potential with our advanced analytics
               expertise.
             </p>
           </div>

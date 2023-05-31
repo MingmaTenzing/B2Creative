@@ -14,8 +14,8 @@ const Hero = (props: Props) => {
             <p data-aos="fade-up"  data-aos-duration="900" className="text-center md:text-start md:text-lg">
               B2Creative: Your digital marketing partner for success. Strategic
               planning, creative design, and data-driven strategies to enhance
-              your online presence and drive results. Let's unlock your
-              business's full potential..
+              your online presence and drive results. Let&apos;s unlock your
+              business&apos;s full potential..
             </p>
             <button  data-aos="fade-up"  data-aos-duration="1000" className=" hover:border-white hover:bg-transparent transition-all ease-linear duration-200 border border-green-500 bg-green-500 p-3  text-sm rounded-lg">
              Contact Us
