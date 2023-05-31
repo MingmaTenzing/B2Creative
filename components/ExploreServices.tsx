@@ -3,7 +3,7 @@ import analytics from "../assests/advanced analytics.png";
 import email from "../assests/email marketing.png";
 import videomarketing from "../assests/video marketing.png";
 import SEO from "../assests/SEO.png";
-import PPC from "../assestS/pay per clikc.png";
+import PPC from "../assests/pay per clikc.png";
 import consulting from "../assests/consulting.png";
 import contentmarketing from "../assests/content marketing.png";
 import webdesign from "../assests/website design.png";
