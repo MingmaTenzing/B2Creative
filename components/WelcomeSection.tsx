@@ -12,13 +12,14 @@ function WelcomeSection({}: Props) {
 
   
       <Image
+      data-aos="fade-right" data-aos-once="true" data-aos-duration="900"
         src={discuss}
         alt="Meeting"
         width={1000}
         height={653}
         className="w-[300px] h-[350px] md:h-[400px] lg:w-[400px] lg:h-[480px] object-cover rounded-lg object-center shadow-lg"
       />
-      <div className=" space-y-3 lg:space-y-6">
+      <div data-aos="fade-left" data-aos-once="true" data-aos-duration="900" className=" space-y-3 lg:space-y-6">
         <h3 className="  font-light  uppercase text-gray-500">Welcome to B2Creative</h3>
         <h2 className="  font-semibold text-2xl md:text-3xl lg:text-4xl text-gray-600 ">We&apos;re providing the best SEO services for your website</h2>
         <p className=" text-gray-600">

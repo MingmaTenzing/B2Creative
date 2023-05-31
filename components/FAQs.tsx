@@ -8,7 +8,7 @@ function FAQs({}: Props) {
 
   return (
     <div className=" p-4 mt-10">
-      <div className=" space-y-3 text-center">
+      <div  data-aos="fade-up" data-aos-once="true" data-aos-duration="1000"className=" space-y-3 text-center">
         <h3 className=" uppercase font-light text-gray-500 text-sm">have questions? look here</h3>
 
         <h2 className=" font-semibold text-2xl md:text-3xl lg:text-4xl">Frequently Asked Questions</h2>

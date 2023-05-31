@@ -23,7 +23,7 @@ export default function Home() {
 
       <Nav />
 
-      <main>
+      <main className=" overflow-x-hidden">
         <Hero />
         <SEOServices />
         <WelcomeSection />

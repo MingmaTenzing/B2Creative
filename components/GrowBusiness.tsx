@@ -11,7 +11,7 @@ function GrowBusiness({}: Props) {
 
 
 
-      <div>
+      <div data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
         <Image
           src={growbusiness}
           height={512}
@@ -21,7 +21,7 @@ function GrowBusiness({}: Props) {
         />
       </div>
 
-      <div className=" space-y-3">
+      <div data-aos="fade-left" data-aos-once="true" data-aos-duration="1000" className=" space-y-3">
         <h3 className=" uppercase font-light text-sm text-gray-500">
           GET YOUR NEXT LEVEL
         </h3>

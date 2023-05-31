@@ -13,7 +13,7 @@ type Props = {};
 function ExploreServices({}: Props) {
   return (
     <div className=" p-4">
-      <div className=" flex flex-col items-center text-center mt-10 space-y-4">
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" className=" flex flex-col items-center text-center mt-10 space-y-4">
         <h3 className=" uppercase font-light text-sm">Explore our services</h3>
         <h2 className=" text-2xl md:text-3xl lg:text-4xl font-semibold">
           SEO Management & Strategy Services
@@ -27,7 +27,7 @@ function ExploreServices({}: Props) {
 
       <div className="  pt-10 md:flex md:flex-wrap md:justify-center lg:w-[1200px] lg:m-auto">
 
-        <div className=" flex flex-col items-center md:items-start lg:flex-row lg:space-x-3 m-4  ">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1100" className=" flex flex-col items-center md:items-start lg:flex-row lg:space-x-3 m-4  ">
 
           <Image
             src={analytics}
@@ -50,7 +50,7 @@ function ExploreServices({}: Props) {
 
 
         </div>
-        <div className=" flex flex-col items-center md:items-start lg:flex-row lg:space-x-3 m-4  ">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1100" className=" flex flex-col items-center md:items-start lg:flex-row lg:space-x-3 m-4  ">
 
           <Image
             src={email}
@@ -73,7 +73,7 @@ function ExploreServices({}: Props) {
 
 
         </div>
-        <div className=" flex flex-col items-center md:items-start lg:flex-row lg:space-x-3 m-4  ">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1100" className=" flex flex-col items-center md:items-start lg:flex-row lg:space-x-3 m-4  ">
 
           <Image
             src={videomarketing}
@@ -96,7 +96,7 @@ function ExploreServices({}: Props) {
 
 
         </div>
-        <div className=" flex flex-col items-center md:items-start lg:flex-row lg:space-x-3 m-4  ">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1100" className=" flex flex-col items-center md:items-start lg:flex-row lg:space-x-3 m-4  ">
 
           <Image
             src={SEO}
@@ -119,7 +119,7 @@ function ExploreServices({}: Props) {
 
 
         </div>
-        <div className=" flex flex-col items-center md:items-start lg:flex-row lg:space-x-3 m-4  ">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1100" className=" flex flex-col items-center md:items-start lg:flex-row lg:space-x-3 m-4  ">
 
           <Image
             src={PPC}
@@ -142,7 +142,7 @@ function ExploreServices({}: Props) {
 
 
         </div>
-        <div className=" flex flex-col items-center md:items-start lg:flex-row lg:space-x-3 m-4  ">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1100" className=" flex flex-col items-center md:items-start lg:flex-row lg:space-x-3 m-4  ">
 
           <Image
             src={consulting}

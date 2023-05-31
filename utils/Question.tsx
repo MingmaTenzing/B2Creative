@@ -24,7 +24,7 @@ function Question({ item }: Props) {
     AOS.init();
   }, []);
   return (
-    <div className=" md:w-[600px] m-auto">
+    <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" className=" md:w-[600px] m-auto">
       <div className="m-4 cursor-pointer">
         <div
           onClick={() => setOpenModal(!openModal)}

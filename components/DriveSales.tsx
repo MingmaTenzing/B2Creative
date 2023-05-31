@@ -10,7 +10,7 @@ function DriveSales({}: Props) {
 
 
 
-        <div className=" p-4  space-y-3  md:w-[700px] lg:pl-20 ">
+        <div data-aos="fade-right" data-aos-once="true" data-aos-duration="1000" className=" p-4  space-y-3  md:w-[700px] lg:pl-20 ">
 
 
       <h3 className=" text-sm font-light uppercase">DRIVE SALES & LEADS</h3>
@@ -30,7 +30,7 @@ function DriveSales({}: Props) {
       <button className=" bg-green-500 p-4 text-sm rounded-lg text-white">Our Pricing Packages</button>
         </div>
 
-        <div className=" mt-6  md:p-0 md:mt-0">
+        <div data-aos="fade-left" data-aos-once="true" data-aos-duration="1000" className=" mt-6  md:p-0 md:mt-0">
             <Image src={analysis} width={815} height={612} alt="service image" className=" lg:pl-20 p-4  md:p-0 md:w-[600px] lg:w-full md:h-[500px] object-cover object-left" /> 
 
 

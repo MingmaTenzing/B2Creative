@@ -48,7 +48,7 @@ window.scrollTo(0, 0);
       <div className=" relative h-[250px] md:h-[300px] w-full ">
         <div className=" z-20 text-white  flex flex-col items-center justify-center h-full p-4 space-y-3">
           <h3 className=" text-2xl md:text-3xl lg:text-4xl font-bold">
-            Let's Keep in Touch
+            Let&apos;s Keep in Touch
           </h3>
           <p className=" text-center font-light md:w-[400px] ">
             Question? Comment? Let us know how can we help you. Fill in the
@@ -64,7 +64,7 @@ window.scrollTo(0, 0);
         />
       </div>
 
-      <div className=" p-4 md: flex md:w-[900px] md:items-center m-auto md:space-x-8">
+      <div className=" p-4 md:flex md:w-[900px] md:items-center m-auto md:space-x-8">
         <form ref={form} onSubmit={sendMessage} className="  space-y-4 mt-10 ">
           <h1 className=" font-bold text-xl md:text-2xl lg:text-3xl mb-2 text-gray-700">
             Contact Us, Right Away!
