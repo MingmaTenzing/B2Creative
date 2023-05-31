@@ -64,7 +64,7 @@ window.scrollTo(0, 0);
         />
       </div>
 
-      <div className=" p-4 md:flex md:w-[900px] md:items-center m-auto md:space-x-8">
+      <div className=" p-4 md:flex md:max-w-[800px] md:items-center m-auto md:space-x-8">
         <form ref={form} onSubmit={sendMessage} className="  space-y-4 mt-10 ">
           <h1 className=" font-bold text-xl md:text-2xl lg:text-3xl mb-2 text-gray-700">
             Contact Us, Right Away!
