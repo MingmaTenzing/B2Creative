@@ -25,7 +25,7 @@ const questions = [
   },
   {
     id: 4,
-    title: "How much do your monthly services cost?",
+    title: "How much does the monthly services cost?",
     answer:
       "Thank you for your interest in our services. The cost of our monthly services can vary depending on several factors, including the specific services required, the complexity of the project, the scope of work, and the duration of the engagement. We offer customized solutions tailored to meet the unique needs and goals of each client. To provide you with an accurate pricing estimate, we would need more information about your specific requirements. We invite you to reach out to us directly so that we can discuss your needs in detail and provide you with a personalized quote based on your specific goals and objectives. Our team is dedicated to delivering value-driven solutions that fit within your budget and drive meaningful results for your business.",
   },
